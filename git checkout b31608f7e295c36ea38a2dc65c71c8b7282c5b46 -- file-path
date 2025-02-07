@@ -1,0 +1,17 @@
+[33mcommit b31608f7e295c36ea38a2dc65c71c8b7282c5b46[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mrecovered-lost-files[m[33m)[m
+Author: DevAzan786 <seriesmaster67@gmail.com>
+Date:   Fri Feb 7 20:58:40 2025 +0500
+
+    Initial commit
+
+ .gitignore                          |   73 [32m+[m[31m-[m
+ Models/logistic_model.pkl           |  Bin [31m0[m -> [32m16555[m bytes
+ Training/Dataset/synthetic_logs.csv | 2411 [32m++++++++++++++++++++++++++++++++[m
+ Training/log_training.ipynb         | 2586 [32m+++++++++++++++++++++++++++++++++++[m
+ bert.py                             |   20 [32m+[m
+ classifier.py                       |   39 [32m+[m
+ llm.py                              |   42 [32m+[m
+ regex.py                            |   18 [32m+[m
+ server.py                           |   36 [32m+[m
+ vercel.json                         |   18 [32m+[m
+ 10 files changed, 5178 insertions(+), 65 deletions(-)
